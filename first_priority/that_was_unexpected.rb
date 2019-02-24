@@ -1,4 +1,5 @@
 class Person
+
   attr_accessor :name, :candy_lover
 
   def initialize(name, candy_lover)
@@ -22,8 +23,9 @@ class Person
     if @candy_lover == true
       "Aw sweet, this cat loves them some candy!"
     else
-      10.times do
+      10.times
         "not a ballin candy lover"
     end
   end
+
 end
