@@ -1,7 +1,8 @@
 def snake_it_up(string)
   if string[0] == "s"
-  10 * "s" + string
+    new_string = 10.times.collect {"s"}.join()
+    new_string + string
   else
-  string
+    string
   end
 end
